@@ -3,6 +3,16 @@ entries:
   marketplace:
   - apiVersion: v2
     appVersion: 0.1.0
+    created: "2023-10-24T05:37:47.192196731Z"
+    description: A Helm chart for deploying the ACM Marketplace into Kubernetes
+    digest: 3bfa95a47a5fc8fe37136ed194f1c304bfbbf2b54e78d020fb0cff497290e0e7
+    name: marketplace
+    type: application
+    urls:
+    - https://github.com/acm-uic/helm/releases/download/marketplace-0.1.2/marketplace-0.1.2.tgz
+    version: 0.1.2
+  - apiVersion: v2
+    appVersion: 0.1.0
     created: "2023-10-24T05:24:44.72455342Z"
     description: A Helm chart for deploying the ACM Marketplace into Kubernetes
     digest: 6618f30ab00dcbf052a6db02fc26717a97cbe5ec8c8564107f6e6b33a91e5d45
@@ -21,4 +31,4 @@ entries:
     urls:
     - https://github.com/acm-uic/helm/releases/download/marketplace-0.1.0/marketplace-0.1.0.tgz
     version: 0.1.0
-generated: "2023-10-24T05:24:44.72456202Z"
+generated: "2023-10-24T05:37:47.192207731Z"
