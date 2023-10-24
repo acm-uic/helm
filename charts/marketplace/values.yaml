@@ -22,6 +22,8 @@ persistence:
   annotations: {}
   size: 8Gi
   storageClass: "-"
+  accessModes:
+    - ReadWriteOnce
 
 imagePullSecrets: []
 nameOverride: ""
