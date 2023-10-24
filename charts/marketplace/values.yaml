@@ -21,7 +21,7 @@ persistence:
   existingClaim: ""
   annotations: {}
   size: 8Gi
-  storageClass: "-"
+  storageClass: ""
   accessModes:
     - ReadWriteOnce
 
