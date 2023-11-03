@@ -49,10 +49,6 @@ Selector labels
 app.kubernetes.io/name: {{ include "marketplace.name" . }}
 app.kubernetes.io/instance: {{ .Release.Name }}
 {{- end }}
-{{- define "db.selectorLabels" -}}
-app.kubernetes.io/name: pocketbase
-app.kubernetes.io/instance: {{ .Release.Name }}
-{{- end }}
 
 
 {{/*
