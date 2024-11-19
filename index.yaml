@@ -3,6 +3,16 @@ entries:
   convergehealth:
   - apiVersion: v2
     appVersion: 0.0.1
+    created: "2024-11-19T16:41:17.108328131Z"
+    description: A Helm chart for deploying the ConvergeHealth website to Kubernetes
+    digest: 395bf1ec63555d8a17662dd35ee277db94ff0c96cd099151da2a7ace003b271a
+    name: convergehealth
+    type: application
+    urls:
+    - https://github.com/acm-uic/helm/releases/download/convergehealth-0.1.1/convergehealth-0.1.1.tgz
+    version: 0.1.1
+  - apiVersion: v2
+    appVersion: 0.0.1
     created: "2024-11-16T01:23:01.297007676Z"
     description: A Helm chart for deploying the ConvergeHealth website to Kubernetes
     digest: 6a3839dc03c7810ce0d8dc34b9911e9b09f62e92c5e904c4444b6ed0239f25e2
@@ -62,4 +72,4 @@ entries:
     urls:
     - https://github.com/acm-uic/helm/releases/download/marketplace-0.1.0/marketplace-0.1.0.tgz
     version: 0.1.0
-generated: "2024-11-16T01:23:01.297026912Z"
+generated: "2024-11-19T16:41:17.108352275Z"
